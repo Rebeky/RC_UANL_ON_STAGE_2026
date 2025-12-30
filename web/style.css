@@ -2,24 +2,68 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #01091c;
-    font-family: Arial, sans-serif;
+    background-color: #310202;
 }
+
+h1{
+    color: white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3em;
+    padding: 0.3em;
+    text-shadow: 0em 0em 0.5em #000000;
+    /* background-color: rgb(228, 221, 204); */
+    /* border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.1em;
+    border-right: 0em;
+   
+ */
+}
+
+.background{
+    object-fit: cover;
+    width: 100%;
+    height: 65em;
+   
+}
+
 
 /* contenedor general */
 .contenedor {
-    height: 100vh;
+    position: absolute; /* SE SUPERPONE */
+    
+    top: 0;
+    left: 0;
+    width: 70em;
+    height: 10em;
+    pointer-events: none; /* no bloquea clics */
+    /* position: relative;
+    width: 100%;
+    object-fit: cover
+    height: 100vh; */
 }
 
 /* caja del video */
 .video-contenedor {
     position: relative; /* REFERENCIA */
-    width: 100%;
-    height: 100vh;
+    width: 70em;
+    height: 50em;
+    top: 15em;
+    left: 7em;
+}
+
+.marco{
+    position: absolute;
+    top: -7em;
+    left: -8em;
+    width: 85em;
+    pointer-events: none;
 }
 
 /* video ocupa todo */
 #camara {
+
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -28,9 +72,17 @@ html, body {
 /* imagen encima */
 .overlay {
     position: absolute; /* SE SUPERPONE */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 6em;
+    left: 3.5em;
+    width: 85%;
+    height: 82%;
     pointer-events: none; /* no bloquea clics */
 }
+
+/* .marco{
+    position: absolute;
+    top: -7em;
+    left: -8em;
+    width: 85em;
+    pointer-events: none;
+} */
