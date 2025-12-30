@@ -48,7 +48,7 @@ h1{
 .video-contenedor {
     position: relative; /* REFERENCIA */
     width: 60vw;
-    height: 100vh;
+    height: 70vh;
     top: 15em;
     left: 7em;
 }
@@ -57,7 +57,7 @@ h1{
     position: absolute;
     top: -7em;
     left: -8em;
-    width: 85em;
+    width: 80vw;
     pointer-events: none;
 }
 
