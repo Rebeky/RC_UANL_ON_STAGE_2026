@@ -47,7 +47,7 @@ h1{
 /* caja del video */
 .video-contenedor {
     position: relative; /* REFERENCIA */
-    width: 60vw;
+    width: 57vw;
     height: 70vh;
     top: 15em;
     left: 7em;
@@ -56,8 +56,8 @@ h1{
 .marco{
     position: absolute;
     top: -7em;
-    left: -8em;
-    width: 80vw;
+    left: -5em;
+    width: 70vw;
     pointer-events: none;
 }
 
@@ -72,10 +72,10 @@ h1{
 /* imagen encima */
 .overlay {
     position: absolute; /* SE SUPERPONE */
-    top: 6em;
-    left: 3.5em;
-    width: 85%;
-    height: 82%;
+    top: 2vw;
+    left: 5.5vh;
+    width: 49vw;
+    height: 60vh;
     pointer-events: none; /* no bloquea clics */
 }
 
