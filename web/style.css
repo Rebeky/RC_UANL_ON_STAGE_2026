@@ -35,8 +35,8 @@ h1{
     
     top: 0;
     left: 0;
-    width: 70em;
-    height: 10em;
+    width: 70vw;
+    height: 10vh;
     pointer-events: none; /* no bloquea clics */
     /* position: relative;
     width: 100%;
@@ -78,11 +78,3 @@ h1{
     height: 82%;
     pointer-events: none; /* no bloquea clics */
 }
-
-/* .marco{
-    position: absolute;
-    top: -7em;
-    left: -8em;
-    width: 85em;
-    pointer-events: none;
-} */
