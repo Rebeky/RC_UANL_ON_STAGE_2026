@@ -47,8 +47,8 @@ h1{
 /* caja del video */
 .video-contenedor {
     position: relative; /* REFERENCIA */
-    width: 70em;
-    height: 50em;
+    width: 60vw;
+    height: 100vh;
     top: 15em;
     left: 7em;
 }
@@ -78,3 +78,11 @@ h1{
     height: 82%;
     pointer-events: none; /* no bloquea clics */
 }
+
+/* .marco{
+    position: absolute;
+    top: -7em;
+    left: -8em;
+    width: 85em;
+    pointer-events: none;
+} */
