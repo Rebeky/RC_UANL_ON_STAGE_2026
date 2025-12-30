@@ -62,16 +62,16 @@ h1{
     position: absolute; /* SE SUPERPONE */
     top: 0em;
     left: 0em;
-    width: 49vw;
-    height: 60vh;
-    pointer-events: none; /* no bloquea clics */
+    width: 38em;
+    height: 25em;
+    pointer-events: none; 
 }
 
 .marco{
     position: absolute;
     top: -7em;
     left: -5em;
-    width: 70vw;
+    width: 50em;
     pointer-events: none;
 }
 
