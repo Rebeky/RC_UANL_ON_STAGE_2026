@@ -53,17 +53,9 @@ h1{
     left: 7em;
 }
 
-.marco{
-    position: absolute;
-    top: -7em;
-    left: -5em;
-    width: 70vw;
-    pointer-events: none;
-}
-
 /* video ocupa todo */
 #camara {
-
+    position: relatives;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -72,11 +64,19 @@ h1{
 /* imagen encima */
 .overlay {
     position: absolute; /* SE SUPERPONE */
-    top: 2vw;
-    left: 5.5vh;
+    top: 0em;
+    left: 0em;
     width: 49vw;
     height: 60vh;
     pointer-events: none; /* no bloquea clics */
+}
+
+.marco{
+    position: absolute;
+    top: -7em;
+    left: -5em;
+    width: 70vw;
+    pointer-events: none;
 }
 
 /* .marco{
