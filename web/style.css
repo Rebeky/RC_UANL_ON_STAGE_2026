@@ -1,24 +1,20 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     background-color: #310202;
+    font-family:'Courier New', Courier, monospace;
+    overflow-y: auto; /* Permitir desplazamiento si hay mucho contenido */
+
 }
+
 
 h1{
     color: white;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 3em;
-    padding: 0.3em;
+    font-size: 2.5em;
+    padding: 0.2em;
     text-shadow: 0em 0em 0.5em #000000;
-    /* background-color: rgb(228, 221, 204); */
-    /* border-style: solid;
-    border-color: #ffffff;
-    border-width: 0.1em;
-    border-right: 0em;
-   
- */
 }
 
 .background{
@@ -30,9 +26,9 @@ h1{
 
 
 /* contenedor general */
-.contenedor {
+.various-containers-displays {
+    display: flex;
     position: absolute; /* SE SUPERPONE */
-    
     top: 0;
     left: 0;
     width: 70vw;
@@ -47,8 +43,8 @@ h1{
 /* caja del video */
 .video-contenedor {
     position: relative; /* REFERENCIA */
-    width: 57vw;
-    height: 70vh;
+    width: 38em;
+    height: 25em;
     top: 15em;
     left: 7em;
 }
