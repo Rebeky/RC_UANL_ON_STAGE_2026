@@ -41,7 +41,7 @@ h1{
 }
 
 /* caja del video */
-.video-contenedor {
+.video-conteiner {
     position: relative; /* REFERENCIA */
     width: 38em;
     height: 25em;

@@ -1,6 +1,7 @@
-const video = document.getElementById("camara");
+const videoLocal = document.getElementById("camara");
 
-navigator.mediaDevices.getUserMedia({ video: true })
+
+navigator.mediaDevices.getUserMedia({ videoLocal: true })
     .then(function(stream) {
         video.srcObject = stream;
     })
@@ -8,6 +9,8 @@ navigator.mediaDevices.getUserMedia({ video: true })
         alert("No se pudo acceder a la cámara");
         console.log(error);
     });
+
+
 
 // const streamed = document.getElementById("webcam");
 
